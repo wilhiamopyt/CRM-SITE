@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="documentacao.css">
+    <!--CSS boodstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+     crossorigin="anonymous">
+</head>
+<body>
+    <!--Nav-->
+    <nav class="navbar bg-light">
+        <div class="container">
+          <img src="img/opytcrm.png" alt="OpytCrm" title="OpytCrm" width="90" height="" 
+          id="OpytCrm">
+             
+            <!--<form action="">
+                <label  for="pesquisa" >
+                <input id="label"  type="text" id="pesquisa" placeholder="Pesquisar" name="pesquisa"
+                ></input>
+                <input   type="button" value="Procurar">
+                </label>
+            </form>-->
+            <div>
+                <form class="d-flex">
+                  <input id="textinput"class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                  <button class="btn btn-outline-warning" type="submit" onclick="enviar()" >Pesquisar</button>
+                </form>
+              </div>
+        </div>
+    </nav>
+    <!--Conteudo principal-->
+    <div id="d1"class="container"><p>
+        <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#collapseWidthExample" aria-expanded="false" 
+        aria-controls="collapseWidthExample">
+        Oportunidades
+        </button>
+      </p>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <div class="card card-body" style="width: 300px;">
+            <p id="texto"></p>
+          </div>
+        </div>
+      </div></div>
+      <!--Scripts-->
+      <script type="text/javascript">
+      
+        function enviar(){
+            var valor = document.getElementById("textinput").value;
+            document.getElementById("texto").innerHTML= valor;   
+        }
+        
+        
+       </script>
+      
+    <!--Script Boodstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" 
+     crossorigin="anonymous"></script>
+</body>
+</html>
