@@ -9,18 +9,21 @@ padding: 0px;
 .bloco{
     float: left;
     display: inline-block;
-    margin-right: 5%;
-    
-   
-    width: 28%;
+    margin-right: 0%;
+    width: 40%;
     height: 210px;
     margin-left: 0%;
-    margin-right: 3%;
+    margin-right: 10%;
     margin-bottom: 10px;
 
 }
 #botao{
-    width: 300px;
+    width: 100%;
+    box-shadow: 2px 2px 3px #f57600;
+-webkit-box-shadow: 2px 2px 3px #f57600;
+-moz-box-shadow: 2px 2px 3px #f57600;
+font-family: Roboto, Noto, sans-serif;
+border-color: #ee9741;
 }
 #vermais{
     text-decoration:none;
@@ -28,7 +31,14 @@ padding: 0px;
 }
 
 #divcab{
-    background-color: silver;
+    background-color: #212529;
+    color:white;
     padding: 1px;
     font-family: Roboto, Noto, sans-serif;
+}
+.box{
+    padding-left: 7%;
+    margin-top: 3%;
+    border: 1px solid;
+    border-color: silver;
 }
