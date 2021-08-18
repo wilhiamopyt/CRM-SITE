@@ -55,7 +55,7 @@ body::before {
       90deg
       , #f8991d 0%, #ff6587 100%);
 }
-.btn-light{text-decoration-line:underline;}
+/*.btn-light{text-decoration-line:underline;}*/
 #icone{
   color:#FFF;
 }
@@ -112,3 +112,19 @@ footer{
     90deg
     , #4a4a49 0%, #1b1b1a 100%);
 }
+a:link {
+  text-decoration: none;
+  color: white;
+ }
+ 
+ a:hover {
+  text-decoration: underline;
+ }
+ #faq{
+  text-decoration: none;
+  color: white;
+  
+ }
+ #faq:hover{
+  text-decoration: underline;
+ }
