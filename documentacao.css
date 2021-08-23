@@ -3,7 +3,7 @@ margin: 0px;
 padding: 0px;
 }
 .container{
-    width: 100%;
+   
     margin-top: 10px;
 }
 .bloco{
@@ -17,7 +17,7 @@ padding: 0px;
     margin-bottom: 10px;
 
 }
-#botao{
+.botao{
     width: 100%;
     box-shadow: 2px 2px 3px #f57600;
 -webkit-box-shadow: 2px 2px 3px #f57600;
@@ -41,5 +41,14 @@ border-color: #ee9741;
     margin-top: 3%;
     border: 1px solid;
     border-color: silver;
+}
+#banner{
+    background-image: url(img/3643856.jpg);
+    height: 450px;
+    background-size: cover;
+    padding-top: 10%;
+    
+    
+    
 }
 
