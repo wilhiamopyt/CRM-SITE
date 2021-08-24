@@ -44,11 +44,16 @@ border-color: #ee9741;
 }
 #banner{
     background-image: url(img/3643856.jpg);
-    height: 450px;
-    background-size: cover;
-    padding-top: 10%;
-    
+    height: 200px;
+    background-size:cover;
+    padding-top: 3%;   
     
     
 }
 
+#lista{
+    margin-top: 15%;
+}
+/*  #item3{
+    display:none;
+}  */
