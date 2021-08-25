@@ -46,9 +46,8 @@ border-color: #ee9741;
     background-image: url(img/3643856.jpg);
     height: 200px;
     background-size:cover;
-    padding-top: 3%;   
-    
-    
+    padding-top: 3%;
+    background-position: 50% 0;
 }
 
 #lista{

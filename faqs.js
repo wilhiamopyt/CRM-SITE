@@ -1,7 +1,6 @@
 function pesquisa() {
     var input, filtro, menu, menuItens, links, teste
     input = document.getElementById("textinput").value;
-    console.log(input)
     filtro = input.toUpperCase();
     menu = document.getElementById("menu");
     menuItens = document.getElementsByTagName("li");
