@@ -23,3 +23,9 @@ function pesquisa() {
 
     }
 }
+/* var captura=document.getElementById("item1").textContent;
+
+var captura2=document.getElementById("");
+captura2.innerHTML=captura;
+
+console.log(captura); */
