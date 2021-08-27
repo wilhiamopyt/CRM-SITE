@@ -23,6 +23,7 @@ function pesquisa() {
 
     }
 }
+
 var captura=document.getElementById("item1").textContent;
 console.log(captura);
 localStorage.setItem("captura",captura);
